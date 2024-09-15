@@ -1,0 +1,77 @@
+com.example.prj_crudkotlin.app-ui-util-release-0 C:\Users\chicl\.gradle\caches\transforms-4\0c1d1aa0ce3490c7e4aecfa9780b8db5\transformed\ui-util-release\res
+com.example.prj_crudkotlin.app-ui-test-manifest-1.6.6-1 C:\Users\chicl\.gradle\caches\transforms-4\109d403fce0c363c88ac3cd5c73c9512\transformed\ui-test-manifest-1.6.6\res
+com.example.prj_crudkotlin.app-navigation-fragment-ktx-2.7.0-2 C:\Users\chicl\.gradle\caches\transforms-4\156794ca7e1e3cc3f75a81e59fd2ac79\transformed\navigation-fragment-ktx-2.7.0\res
+com.example.prj_crudkotlin.app-material3-release-3 C:\Users\chicl\.gradle\caches\transforms-4\1bbb0f9b7db799c307062a8ab41f1968\transformed\material3-release\res
+com.example.prj_crudkotlin.app-core-1.12.0-4 C:\Users\chicl\.gradle\caches\transforms-4\1d0fe5987146156f1caa571ab28fd372\transformed\core-1.12.0\res
+com.example.prj_crudkotlin.app-navigation-runtime-ktx-2.7.0-5 C:\Users\chicl\.gradle\caches\transforms-4\1d2d6d19aee5e7879b4caf5a90915a14\transformed\navigation-runtime-ktx-2.7.0\res
+com.example.prj_crudkotlin.app-lifecycle-viewmodel-ktx-2.8.5-6 C:\Users\chicl\.gradle\caches\transforms-4\1dab7d549b9ccc88d7e89041e7e075ca\transformed\lifecycle-viewmodel-ktx-2.8.5\res
+com.example.prj_crudkotlin.app-animation-release-7 C:\Users\chicl\.gradle\caches\transforms-4\22d77fbb6bbea56f91bca81d4599c970\transformed\animation-release\res
+com.example.prj_crudkotlin.app-customview-poolingcontainer-1.0.0-8 C:\Users\chicl\.gradle\caches\transforms-4\23e462fffbeb9abcb885259e04ec9688\transformed\customview-poolingcontainer-1.0.0\res
+com.example.prj_crudkotlin.app-material-1.4.0-beta01-9 C:\Users\chicl\.gradle\caches\transforms-4\24aded2b1003446e7e26e711b2aaf482\transformed\material-1.4.0-beta01\res
+com.example.prj_crudkotlin.app-core-runtime-2.2.0-10 C:\Users\chicl\.gradle\caches\transforms-4\25caac401247ecf597a3e313ae3fa449\transformed\core-runtime-2.2.0\res
+com.example.prj_crudkotlin.app-ui-tooling-preview-release-11 C:\Users\chicl\.gradle\caches\transforms-4\2ba49136e8710dba1b81ec9fc83455fe\transformed\ui-tooling-preview-release\res
+com.example.prj_crudkotlin.app-slidingpanelayout-1.2.0-12 C:\Users\chicl\.gradle\caches\transforms-4\2ebbeff786f4745f862ca674dd6a5338\transformed\slidingpanelayout-1.2.0\res
+com.example.prj_crudkotlin.app-window-1.0.0-13 C:\Users\chicl\.gradle\caches\transforms-4\2f6d592b9ee93138b3615e51adaf88cf\transformed\window-1.0.0\res
+com.example.prj_crudkotlin.app-room-runtime-2.6.1-14 C:\Users\chicl\.gradle\caches\transforms-4\307c6a1bb9b3a2502a98968a021f0509\transformed\room-runtime-2.6.1\res
+com.example.prj_crudkotlin.app-profileinstaller-1.3.1-15 C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\res
+com.example.prj_crudkotlin.app-core-ktx-1.12.0-16 C:\Users\chicl\.gradle\caches\transforms-4\39d0bdcea7e88eabe6762ba5ed13ff9a\transformed\core-ktx-1.12.0\res
+com.example.prj_crudkotlin.app-ui-geometry-release-17 C:\Users\chicl\.gradle\caches\transforms-4\3a0c5016dc2c32e0a02065d4b1c3c84a\transformed\ui-geometry-release\res
+com.example.prj_crudkotlin.app-lifecycle-viewmodel-compose-release-18 C:\Users\chicl\.gradle\caches\transforms-4\3b757a2a9d890ce74868ec12797b3792\transformed\lifecycle-viewmodel-compose-release\res
+com.example.prj_crudkotlin.app-cardview-1.0.0-19 C:\Users\chicl\.gradle\caches\transforms-4\3f315265d64833c4ee203a6a38ca8fe4\transformed\cardview-1.0.0\res
+com.example.prj_crudkotlin.app-foundation-release-20 C:\Users\chicl\.gradle\caches\transforms-4\41a9674c4b5aa82e432fd479beac0869\transformed\foundation-release\res
+com.example.prj_crudkotlin.app-activity-ktx-1.8.0-21 C:\Users\chicl\.gradle\caches\transforms-4\44b938b797c90c53e906531f32622fbe\transformed\activity-ktx-1.8.0\res
+com.example.prj_crudkotlin.app-ui-release-22 C:\Users\chicl\.gradle\caches\transforms-4\456f999ccb966d9d17861704e425de62\transformed\ui-release\res
+com.example.prj_crudkotlin.app-fragment-ktx-1.6.0-23 C:\Users\chicl\.gradle\caches\transforms-4\46b0470d8dfdd837adda4913de17efe4\transformed\fragment-ktx-1.6.0\res
+com.example.prj_crudkotlin.app-constraintlayout-2.0.1-24 C:\Users\chicl\.gradle\caches\transforms-4\47bdc7b1ba7619602a1cedc76964936e\transformed\constraintlayout-2.0.1\res
+com.example.prj_crudkotlin.app-material-ripple-release-25 C:\Users\chicl\.gradle\caches\transforms-4\4c59e9157f69fae596d3187a3c9312e6\transformed\material-ripple-release\res
+com.example.prj_crudkotlin.app-material-icons-core-release-26 C:\Users\chicl\.gradle\caches\transforms-4\534678bca9f9bfd7da05442eec43832d\transformed\material-icons-core-release\res
+com.example.prj_crudkotlin.app-navigation-compose-2.7.0-27 C:\Users\chicl\.gradle\caches\transforms-4\5544a3981411f699ce56612f465f071d\transformed\navigation-compose-2.7.0\res
+com.example.prj_crudkotlin.app-lifecycle-runtime-release-28 C:\Users\chicl\.gradle\caches\transforms-4\57a98bb18b6b3a6cb68bf08c50ad766a\transformed\lifecycle-runtime-release\res
+com.example.prj_crudkotlin.app-sqlite-2.4.0-29 C:\Users\chicl\.gradle\caches\transforms-4\5ceb99b632d6e671a6e951636ac3f474\transformed\sqlite-2.4.0\res
+com.example.prj_crudkotlin.app-lifecycle-livedata-2.8.5-30 C:\Users\chicl\.gradle\caches\transforms-4\5e7c1fc049b44d5106b8c02e287a8ba7\transformed\lifecycle-livedata-2.8.5\res
+com.example.prj_crudkotlin.app-material-release-31 C:\Users\chicl\.gradle\caches\transforms-4\636927a45b0ca4acd080692bf8c528d4\transformed\material-release\res
+com.example.prj_crudkotlin.app-ui-tooling-data-release-32 C:\Users\chicl\.gradle\caches\transforms-4\66cf4fa9b745069aa61a6a2df3f17841\transformed\ui-tooling-data-release\res
+com.example.prj_crudkotlin.app-runtime-saveable-release-33 C:\Users\chicl\.gradle\caches\transforms-4\68622536708909b6f77db6a8789109a0\transformed\runtime-saveable-release\res
+com.example.prj_crudkotlin.app-activity-compose-1.8.0-34 C:\Users\chicl\.gradle\caches\transforms-4\6cc489b0713e24da321f1f970f633f50\transformed\activity-compose-1.8.0\res
+com.example.prj_crudkotlin.app-navigation-ui-2.7.0-35 C:\Users\chicl\.gradle\caches\transforms-4\6e028959cca2302a875e34ebfb9957b7\transformed\navigation-ui-2.7.0\res
+com.example.prj_crudkotlin.app-foundation-layout-release-36 C:\Users\chicl\.gradle\caches\transforms-4\71668a0c0d57ece55f307489bf2edbe2\transformed\foundation-layout-release\res
+com.example.prj_crudkotlin.app-room-ktx-2.6.1-37 C:\Users\chicl\.gradle\caches\transforms-4\717f0349e806a70e6ca60c657b4ec8f4\transformed\room-ktx-2.6.1\res
+com.example.prj_crudkotlin.app-ui-text-release-38 C:\Users\chicl\.gradle\caches\transforms-4\79069c511ec52d2681c224613e5d04fc\transformed\ui-text-release\res
+com.example.prj_crudkotlin.app-sqlite-framework-2.4.0-39 C:\Users\chicl\.gradle\caches\transforms-4\7c8e20ab87f7e4cc75983f21de59082a\transformed\sqlite-framework-2.4.0\res
+com.example.prj_crudkotlin.app-lifecycle-livedata-ktx-2.8.5-40 C:\Users\chicl\.gradle\caches\transforms-4\7ccf59225357cb9641a94ae4ae7cbabe\transformed\lifecycle-livedata-ktx-2.8.5\res
+com.example.prj_crudkotlin.app-viewpager2-1.0.0-41 C:\Users\chicl\.gradle\caches\transforms-4\7ff35801cec6878d023d162f26820f48\transformed\viewpager2-1.0.0\res
+com.example.prj_crudkotlin.app-startup-runtime-1.1.1-42 C:\Users\chicl\.gradle\caches\transforms-4\8c481cde341c17d1d88e3f4f60630110\transformed\startup-runtime-1.1.1\res
+com.example.prj_crudkotlin.app-lifecycle-livedata-core-ktx-2.8.5-43 C:\Users\chicl\.gradle\caches\transforms-4\917484ac58fe362626b050e72dd1d725\transformed\lifecycle-livedata-core-ktx-2.8.5\res
+com.example.prj_crudkotlin.app-runtime-release-44 C:\Users\chicl\.gradle\caches\transforms-4\9424997a6775388baa7c7ec81e6fa171\transformed\runtime-release\res
+com.example.prj_crudkotlin.app-drawerlayout-1.1.1-45 C:\Users\chicl\.gradle\caches\transforms-4\9c69c61bccde0984e891a9bbb7ac74bd\transformed\drawerlayout-1.1.1\res
+com.example.prj_crudkotlin.app-lifecycle-process-2.8.5-46 C:\Users\chicl\.gradle\caches\transforms-4\9d3b9a0f2d24a32b3597c56d7f65da29\transformed\lifecycle-process-2.8.5\res
+com.example.prj_crudkotlin.app-fragment-1.6.0-47 C:\Users\chicl\.gradle\caches\transforms-4\a62ab0c5e4f37a033f8acac242b8c734\transformed\fragment-1.6.0\res
+com.example.prj_crudkotlin.app-navigation-common-ktx-2.7.0-48 C:\Users\chicl\.gradle\caches\transforms-4\a8c402f79fd7c37b9a8eac3d4ce72f54\transformed\navigation-common-ktx-2.7.0\res
+com.example.prj_crudkotlin.app-navigation-common-2.7.0-49 C:\Users\chicl\.gradle\caches\transforms-4\b128229a874fdf8acafd575053897514\transformed\navigation-common-2.7.0\res
+com.example.prj_crudkotlin.app-navigation-ui-ktx-2.7.0-50 C:\Users\chicl\.gradle\caches\transforms-4\b1ea47db198e2880ecd011c44f1768b8\transformed\navigation-ui-ktx-2.7.0\res
+com.example.prj_crudkotlin.app-savedstate-1.2.1-51 C:\Users\chicl\.gradle\caches\transforms-4\b9434e3f639316e70dac1362d0921d13\transformed\savedstate-1.2.1\res
+com.example.prj_crudkotlin.app-coordinatorlayout-1.1.0-52 C:\Users\chicl\.gradle\caches\transforms-4\b968d2949e560aaa6b73324b4aba9ef1\transformed\coordinatorlayout-1.1.0\res
+com.example.prj_crudkotlin.app-animation-core-release-53 C:\Users\chicl\.gradle\caches\transforms-4\c0a14130192e7af8efacf1204926d525\transformed\animation-core-release\res
+com.example.prj_crudkotlin.app-ui-graphics-release-54 C:\Users\chicl\.gradle\caches\transforms-4\c1f54be5eab689614fc7b65c79acaa0d\transformed\ui-graphics-release\res
+com.example.prj_crudkotlin.app-navigation-runtime-2.7.0-55 C:\Users\chicl\.gradle\caches\transforms-4\c84b542d51f1dc5776d36393d6a419e4\transformed\navigation-runtime-2.7.0\res
+com.example.prj_crudkotlin.app-ui-unit-release-56 C:\Users\chicl\.gradle\caches\transforms-4\cb060f1e571377a6ad7844c7adc6dc9d\transformed\ui-unit-release\res
+com.example.prj_crudkotlin.app-appcompat-resources-1.2.0-57 C:\Users\chicl\.gradle\caches\transforms-4\cd4a9049efefce8153a8f0c6dd3202ff\transformed\appcompat-resources-1.2.0\res
+com.example.prj_crudkotlin.app-transition-1.4.1-58 C:\Users\chicl\.gradle\caches\transforms-4\cd9a667c581962664ee7dc8c3ab5f07d\transformed\transition-1.4.1\res
+com.example.prj_crudkotlin.app-savedstate-ktx-1.2.1-59 C:\Users\chicl\.gradle\caches\transforms-4\d2e0251ec812b779976448d23ff72545\transformed\savedstate-ktx-1.2.1\res
+com.example.prj_crudkotlin.app-appcompat-1.2.0-60 C:\Users\chicl\.gradle\caches\transforms-4\dda3a78c51c102fd61cb661e5a3675e7\transformed\appcompat-1.2.0\res
+com.example.prj_crudkotlin.app-navigation-fragment-2.7.0-61 C:\Users\chicl\.gradle\caches\transforms-4\dfecee265d99bf3fbe3da0f3a8329242\transformed\navigation-fragment-2.7.0\res
+com.example.prj_crudkotlin.app-lifecycle-viewmodel-release-62 C:\Users\chicl\.gradle\caches\transforms-4\e223d4a025c8906c8b6e5ee21780fe27\transformed\lifecycle-viewmodel-release\res
+com.example.prj_crudkotlin.app-activity-1.8.0-63 C:\Users\chicl\.gradle\caches\transforms-4\e34400c79d589db24b332e6679fd0110\transformed\activity-1.8.0\res
+com.example.prj_crudkotlin.app-lifecycle-viewmodel-savedstate-2.8.5-64 C:\Users\chicl\.gradle\caches\transforms-4\e7754741c5855d3edb517f173f464bfb\transformed\lifecycle-viewmodel-savedstate-2.8.5\res
+com.example.prj_crudkotlin.app-ui-tooling-release-65 C:\Users\chicl\.gradle\caches\transforms-4\ec2833f3f93c524691a27d7a0b8b6270\transformed\ui-tooling-release\res
+com.example.prj_crudkotlin.app-annotation-experimental-1.4.0-66 C:\Users\chicl\.gradle\caches\transforms-4\edd4be6670f3bdfc74b65e3fc24aa2dd\transformed\annotation-experimental-1.4.0\res
+com.example.prj_crudkotlin.app-lifecycle-livedata-core-2.8.5-67 C:\Users\chicl\.gradle\caches\transforms-4\f0a28b60abbaba004120c3cbeecddb67\transformed\lifecycle-livedata-core-2.8.5\res
+com.example.prj_crudkotlin.app-emoji2-1.3.0-68 C:\Users\chicl\.gradle\caches\transforms-4\f34e364a9f7d4839fff6c53e4753e056\transformed\emoji2-1.3.0\res
+com.example.prj_crudkotlin.app-recyclerview-1.1.0-69 C:\Users\chicl\.gradle\caches\transforms-4\f8ae4eb9f6e0373c9c4ff9764d3e9597\transformed\recyclerview-1.1.0\res
+com.example.prj_crudkotlin.app-lifecycle-runtime-ktx-release-70 C:\Users\chicl\.gradle\caches\transforms-4\f9468165bcedf015fd23f40ed4aaa832\transformed\lifecycle-runtime-ktx-release\res
+com.example.prj_crudkotlin.app-resValues-71 D:\FACULDADE\tap mobile\app\build\generated\res\resValues\debug
+com.example.prj_crudkotlin.app-packageDebugResources-72 D:\FACULDADE\tap mobile\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.prj_crudkotlin.app-packageDebugResources-73 D:\FACULDADE\tap mobile\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.prj_crudkotlin.app-debug-74 D:\FACULDADE\tap mobile\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.prj_crudkotlin.app-debug-75 D:\FACULDADE\tap mobile\app\src\debug\res
+com.example.prj_crudkotlin.app-main-76 D:\FACULDADE\tap mobile\app\src\main\res
