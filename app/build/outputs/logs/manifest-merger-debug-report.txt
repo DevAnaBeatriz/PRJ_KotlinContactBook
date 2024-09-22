@@ -1,96 +1,98 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:2:1-28:12
-MERGED from [androidx.navigation:navigation-common:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\b128229a874fdf8acafd575053897514\transformed\navigation-common-2.7.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\c84b542d51f1dc5776d36393d6a419e4\transformed\navigation-runtime-2.7.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\a8c402f79fd7c37b9a8eac3d4ce72f54\transformed\navigation-common-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-ui:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\6e028959cca2302a875e34ebfb9957b7\transformed\navigation-ui-2.7.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-fragment:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\dfecee265d99bf3fbe3da0f3a8329242\transformed\navigation-fragment-2.7.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\1d2d6d19aee5e7879b4caf5a90915a14\transformed\navigation-runtime-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-ui-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\b1ea47db198e2880ecd011c44f1768b8\transformed\navigation-ui-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\156794ca7e1e3cc3f75a81e59fd2ac79\transformed\navigation-fragment-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-compose:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\5544a3981411f699ce56612f465f071d\transformed\navigation-compose-2.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\Users\chicl\.gradle\caches\transforms-4\46b0470d8dfdd837adda4913de17efe4\transformed\fragment-ktx-1.6.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.material:material:1.4.0-beta01] C:\Users\chicl\.gradle\caches\transforms-4\24aded2b1003446e7e26e711b2aaf482\transformed\material-1.4.0-beta01\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\7ff35801cec6878d023d162f26820f48\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\chicl\.gradle\caches\transforms-4\47bdc7b1ba7619602a1cedc76964936e\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\chicl\.gradle\caches\transforms-4\dda3a78c51c102fd61cb661e5a3675e7\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.6.0] C:\Users\chicl\.gradle\caches\transforms-4\a62ab0c5e4f37a033f8acac242b8c734\transformed\fragment-1.6.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.8.0] C:\Users\chicl\.gradle\caches\transforms-4\e34400c79d589db24b332e6679fd0110\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\chicl\.gradle\caches\transforms-4\44b938b797c90c53e906531f32622fbe\transformed\activity-ktx-1.8.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\chicl\.gradle\caches\transforms-4\1bbb0f9b7db799c307062a8ab41f1968\transformed\material3-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\ec2833f3f93c524691a27d7a0b8b6270\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.activity:activity-compose:1.8.0] C:\Users\chicl\.gradle\caches\transforms-4\6cc489b0713e24da321f1f970f633f50\transformed\activity-compose-1.8.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-ripple-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\4c59e9157f69fae596d3187a3c9312e6\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\534678bca9f9bfd7da05442eec43832d\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\636927a45b0ca4acd080692bf8c528d4\transformed\material-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-core-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\c0a14130192e7af8efacf1204926d525\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\22d77fbb6bbea56f91bca81d4599c970\transformed\animation-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\71668a0c0d57ece55f307489bf2edbe2\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\41a9674c4b5aa82e432fd479beac0869\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\66cf4fa9b745069aa61a6a2df3f17841\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-unit-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\cb060f1e571377a6ad7844c7adc6dc9d\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-geometry-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\3a0c5016dc2c32e0a02065d4b1c3c84a\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-util-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\0c1d1aa0ce3490c7e4aecfa9780b8db5\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-text-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\79069c511ec52d2681c224613e5d04fc\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\2ba49136e8710dba1b81ec9fc83455fe\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-graphics-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\c1f54be5eab689614fc7b65c79acaa0d\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\f34e364a9f7d4839fff6c53e4753e056\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\chicl\.gradle\caches\transforms-4\d2e0251ec812b779976448d23ff72545\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\chicl\.gradle\caches\transforms-4\b9434e3f639316e70dac1362d0921d13\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\9d3b9a0f2d24a32b3597c56d7f65da29\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\e7754741c5855d3edb517f173f464bfb\transformed\lifecycle-viewmodel-savedstate-2.8.5\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\f0a28b60abbaba004120c3cbeecddb67\transformed\lifecycle-livedata-core-2.8.5\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2a31c0f6217c717740e1eb6c8a6c7443\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\751087fa9dd2d88e58be7533e96d30b9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\be8c646458a85fd8bcc1f1f2ce26bac8\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\2045e54a9c60e72a9e69f8d5b6921c03\transformed\lifecycle-viewmodel-2.8.5\AndroidManifest.xml:2:1-5:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\e223d4a025c8906c8b6e5ee21780fe27\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\f9468165bcedf015fd23f40ed4aaa832\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\1b21cfdda937e5d3d02fe9900a7d1f36\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\chicl\.gradle\caches\transforms-4\2ebbeff786f4745f862ca674dd6a5338\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\9c69c61bccde0984e891a9bbb7ac74bd\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\b968d2949e560aaa6b73324b4aba9ef1\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\04bc777faa1a680a16b8fb0581abc1fa\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\f8ae4eb9f6e0373c9c4ff9764d3e9597\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\5238f0e5447e93a227893e92bdf49822\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\23e462fffbeb9abcb885259e04ec9688\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\39d0bdcea7e88eabe6762ba5ed13ff9a\transformed\core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.transition:transition:1.4.1] C:\Users\chicl\.gradle\caches\transforms-4\cd9a667c581962664ee7dc8c3ab5f07d\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2f6d592b9ee93138b3615e51adaf88cf\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\chicl\.gradle\caches\transforms-4\cd4a9049efefce8153a8f0c6dd3202ff\transformed\appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\012c387e7071dbf23d385362c73eb435\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\388e205c2eddfd81c1b60a377eb88f11\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\1d0fe5987146156f1caa571ab28fd372\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\57a98bb18b6b3a6cb68bf08c50ad766a\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\1dab7d549b9ccc88d7e89041e7e075ca\transformed\lifecycle-viewmodel-ktx-2.8.5\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\917484ac58fe362626b050e72dd1d725\transformed\lifecycle-livedata-core-ktx-2.8.5\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\5e7c1fc049b44d5106b8c02e287a8ba7\transformed\lifecycle-livedata-2.8.5\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\7ccf59225357cb9641a94ae4ae7cbabe\transformed\lifecycle-livedata-ktx-2.8.5\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\3b757a2a9d890ce74868ec12797b3792\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\456f999ccb966d9d17861704e425de62\transformed\ui-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\109d403fce0c363c88ac3cd5c73c9512\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\307c6a1bb9b3a2502a98968a021f0509\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
-MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\717f0349e806a70e6ca60c657b4ec8f4\transformed\room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\68622536708909b6f77db6a8789109a0\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\9424997a6775388baa7c7ec81e6fa171\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\chicl\.gradle\caches\transforms-4\25caac401247ecf597a3e313ae3fa449\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\chicl\.gradle\caches\transforms-4\7c8e20ab87f7e4cc75983f21de59082a\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\chicl\.gradle\caches\transforms-4\5ceb99b632d6e671a6e951636ac3f474\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\8c481cde341c17d1d88e3f4f60630110\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\8712171e99ac0e16ba1d944cb0bbcc8e\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\76137180cabf5fb1ffcd4bacdcbb1938\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\955ec0f8cc28114e8f0220fa0b679a81\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\3f315265d64833c4ee203a6a38ca8fe4\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\f9e57cbbe93c721a534f9cf346c4690c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\0314e93e36f44301000b1e6dae7969af\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\5120650d34775956ed13f4e592b3318b\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\639fb84bf8dbcf49f601b269f4efa5c9\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\chicl\.gradle\caches\transforms-4\edd4be6670f3bdfc74b65e3fc24aa2dd\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:2:1-31:12
+MERGED from [androidx.navigation:navigation-common:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\c0a505cab0cebb0a8e61fbae9fd64b2b\transformed\navigation-common-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\680d4d680e557de15baa35c231c12e79\transformed\navigation-runtime-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\2813e4a425f652490c23c75e82969179\transformed\navigation-common-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\948230bc386e020f98fd5224f8adbb0d\transformed\navigation-ui-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\2bb0c31a63f2f1f55ff59964cb324a9f\transformed\navigation-fragment-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\bc231ac377158df3a2d80cc1fd6447f0\transformed\navigation-runtime-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\8a9ee54fd1608e6317ae82a2dcb11fcf\transformed\navigation-ui-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\2c75f2a4952215f29f90293603336e6d\transformed\navigation-fragment-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\6ac13d889f0c5b6f6b9462163b53f1af\transformed\navigation-compose-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\Users\chicl\.gradle\caches\transforms-4\2edcbc8155d615f1e730ba18d5943509\transformed\fragment-ktx-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.4.0-beta01] C:\Users\chicl\.gradle\caches\transforms-4\a7cbb0d197ed3ce3e74f14f1924849ed\transformed\material-1.4.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\50d27d6d408b8e7bd012b34da0a28ce1\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\chicl\.gradle\caches\transforms-4\13a1af978c3cdb9fd49c05a848d6d6da\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\chicl\.gradle\caches\transforms-4\3f655baeeec4c327287eecaeb22f33fb\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.6.0] C:\Users\chicl\.gradle\caches\transforms-4\71c8886adf20eea9995f4fc3e3fe66ef\transformed\fragment-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\chicl\.gradle\caches\transforms-4\3b67fd762acbb83fffad022d4b96490f\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\chicl\.gradle\caches\transforms-4\ac4f80cec517f5fd6ed5f15af40b30cc\transformed\activity-ktx-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\chicl\.gradle\caches\transforms-4\9b7bae37dfce599122e65e868f75d699\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\b0fc75e789698ee57fdea5c56843740c\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity-compose:1.8.0] C:\Users\chicl\.gradle\caches\transforms-4\3465c6a7b20b1d27a70776c089734bef\transformed\activity-compose-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\1578a8b07d27ed9efa43cfbe74cb6c1f\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\0a9741532d57647fcd071d127b714c2d\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\ff88ced835c10fc3131f1f8825359071\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\c5f4fcdc0403bcfd7bc536b350a72536\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\b434b0942ad877a1f0a872fb6a5c191f\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\f21fccca95e59d89df01625dae447275\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\f935376bc678ee594e7bef5df9892e40\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\2d660e0b0cfe9b65d8358c7d6baad815\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\ada059c1cd5335ca5f27d26da5f8cb6f\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\47a7e3613dc71879311fa91bb7fa2446\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\d6a1dabe3de1135ebfb9f4bbbd2ee820\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\c4e5d18523d3d4226d5179666298a3f8\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\2a7386960eabf46e0d88595f72b76d0d\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\2a6a82f4b8953b4b8213015a065d9046\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] C:\Users\chicl\.gradle\caches\transforms-4\38b076d51a384251a53a8fadeb40f13e\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\77b83a27d74a64197aaf5f0c3e3846db\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\chicl\.gradle\caches\transforms-4\d909f44504ba17de2df70ebf9fe4da16\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\chicl\.gradle\caches\transforms-4\71242c7c487f428e6eb2a13782a942fe\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\761e7779c12f2d99366cad5c97b29097\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\0721db4bfdeb1754ae62088343b0e662\transformed\lifecycle-viewmodel-savedstate-2.8.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\27268139fd0190311beb530dcd6c3a1c\transformed\lifecycle-livedata-core-2.8.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\5182a575a99d8951f45fe46d41e20af4\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\9841d46cc997c5bbe58dcff3076df57d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\e78724bf6911b583804e4bd72e448ee6\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\2a015c94fef4928a6f1c352e81099c6d\transformed\lifecycle-viewmodel-2.8.5\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\eed4137905faf13b65e9d91ff748948b\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\94c11d1107446d2561f72f8603f992da\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\6a5f243cea7902b5e7ab8bf55a62392c\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\chicl\.gradle\caches\transforms-4\b0c05da4ad34ae71ca35b8d79ded9370\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\ddff110e2c4c10cee031ca25a25346ec\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\0fe2613df2beddd15efd4bdafe323c63\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2b7eac597d31c28de0cfafcddd392db0\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\2326adb9c38624bb341c133ad9e0bd66\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\a3c772335e03ab806f244546a3f4295b\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\5efea1e8172f78455f126061c861368e\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\819d5b7db9e86b70327db53c4488b3fc\transformed\core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\chicl\.gradle\caches\transforms-4\fe0e74a561735c1f99d67084a8e94cb2\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\4ca04f0eaf798e2e5079b4930bb07af8\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\chicl\.gradle\caches\transforms-4\b4e4163677e6ebd825522e5ec34920e2\transformed\appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\d88c37aad9d696b50632ffd471803f4f\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\7cbb726d5f6471475cf4c4ad72f713fb\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\5c162a603a62068b8f1ef0b773e75f6a\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\81e81b87e176ce5d696be03c4eec4985\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\927634e1aadf6911aee28e6cc9c81c79\transformed\lifecycle-viewmodel-ktx-2.8.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\91eb304aa2ac6ff43e35c590ab49a7b0\transformed\lifecycle-livedata-core-ktx-2.8.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\c93647d99f06af3474886c5d3a267082\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] C:\Users\chicl\.gradle\caches\transforms-4\12831000a34ee81f9900ad3a7e0bc839\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-livedata:1.7.2] C:\Users\chicl\.gradle\caches\transforms-4\1616c445989d1644476b22d60d5d7e02\transformed\runtime-livedata-1.7.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\63c0e546997064fbf4b2effef578e0c6\transformed\lifecycle-livedata-2.8.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\a01af57bde88e8289f2e2351b404eefa\transformed\lifecycle-livedata-ktx-2.8.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\aa68c9c1b4e06cdd88673f5ad622ed7d\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\0426ca0d0466a9d991829516fef55482\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\933022988cf4159ccc899bed09186bd4\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\8f2ac7d4283381f234889c77323db88f\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\509166567a869490baba77ae70a0009a\transformed\room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\chicl\.gradle\caches\transforms-4\cb6c2d17eeaad3c2c2c2eac574055e37\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\chicl\.gradle\caches\transforms-4\761e21a0b72045c382bbed59e7bb3b63\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\chicl\.gradle\caches\transforms-4\0547c64ba1f39b4be0d32d441bac2a12\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\4aa2705e5c2663cd1982fd2328aa77b6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\cd7b6e6bc33a9cace32c070586e65bc8\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\3295ab51c8675fd943994268a203679c\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\b86feb33693c016869d4abcca96580dd\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\548d7c60b0dbc436de0de4a34ba368d5\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\0d70db56edade89a573bc15db0fd26af\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\ea7e36d54c89b2167ed8af7446b990e9\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\69526941601b3e3611288503b02d2482\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2fe80b16ec3731e8d7d9370be590f1be\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\chicl\.gradle\caches\transforms-4\5bf864088e1dcba541cefabe7a1ea44a\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
 	package
 		INJECTED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -101,378 +103,388 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\chicl\.
 		INJECTED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.telephony
+ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:5:5-7:36
+	android:required
+		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:7:9-33
+	android:name
+		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:6:9-50
 application
-ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:5:5-26:19
-INJECTED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:5:5-26:19
-MERGED from [com.google.android.material:material:1.4.0-beta01] C:\Users\chicl\.gradle\caches\transforms-4\24aded2b1003446e7e26e711b2aaf482\transformed\material-1.4.0-beta01\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.4.0-beta01] C:\Users\chicl\.gradle\caches\transforms-4\24aded2b1003446e7e26e711b2aaf482\transformed\material-1.4.0-beta01\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\chicl\.gradle\caches\transforms-4\47bdc7b1ba7619602a1cedc76964936e\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\chicl\.gradle\caches\transforms-4\47bdc7b1ba7619602a1cedc76964936e\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\ec2833f3f93c524691a27d7a0b8b6270\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\ec2833f3f93c524691a27d7a0b8b6270\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\f34e364a9f7d4839fff6c53e4753e056\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\f34e364a9f7d4839fff6c53e4753e056\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\9d3b9a0f2d24a32b3597c56d7f65da29\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\9d3b9a0f2d24a32b3597c56d7f65da29\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2f6d592b9ee93138b3615e51adaf88cf\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2f6d592b9ee93138b3615e51adaf88cf\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\1d0fe5987146156f1caa571ab28fd372\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\1d0fe5987146156f1caa571ab28fd372\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\109d403fce0c363c88ac3cd5c73c9512\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\109d403fce0c363c88ac3cd5c73c9512\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\307c6a1bb9b3a2502a98968a021f0509\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
-MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\307c6a1bb9b3a2502a98968a021f0509\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\8c481cde341c17d1d88e3f4f60630110\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\8c481cde341c17d1d88e3f4f60630110\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\76137180cabf5fb1ffcd4bacdcbb1938\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\76137180cabf5fb1ffcd4bacdcbb1938\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:8:5-29:19
+INJECTED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:8:5-29:19
+MERGED from [com.google.android.material:material:1.4.0-beta01] C:\Users\chicl\.gradle\caches\transforms-4\a7cbb0d197ed3ce3e74f14f1924849ed\transformed\material-1.4.0-beta01\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0-beta01] C:\Users\chicl\.gradle\caches\transforms-4\a7cbb0d197ed3ce3e74f14f1924849ed\transformed\material-1.4.0-beta01\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\chicl\.gradle\caches\transforms-4\13a1af978c3cdb9fd49c05a848d6d6da\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\chicl\.gradle\caches\transforms-4\13a1af978c3cdb9fd49c05a848d6d6da\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\b0fc75e789698ee57fdea5c56843740c\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\b0fc75e789698ee57fdea5c56843740c\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\77b83a27d74a64197aaf5f0c3e3846db\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\77b83a27d74a64197aaf5f0c3e3846db\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\761e7779c12f2d99366cad5c97b29097\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\761e7779c12f2d99366cad5c97b29097\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\4ca04f0eaf798e2e5079b4930bb07af8\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\4ca04f0eaf798e2e5079b4930bb07af8\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\5c162a603a62068b8f1ef0b773e75f6a\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\5c162a603a62068b8f1ef0b773e75f6a\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\933022988cf4159ccc899bed09186bd4\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\933022988cf4159ccc899bed09186bd4\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\8f2ac7d4283381f234889c77323db88f\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\8f2ac7d4283381f234889c77323db88f\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\4aa2705e5c2663cd1982fd2328aa77b6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\4aa2705e5c2663cd1982fd2328aa77b6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\b86feb33693c016869d4abcca96580dd\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\b86feb33693c016869d4abcca96580dd\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
 		INJECTED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\1d0fe5987146156f1caa571ab28fd372\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\5c162a603a62068b8f1ef0b773e75f6a\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:13:9-41
 	android:fullBackupContent
-		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:8:9-54
-	android:roundIcon
 		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:11:9-54
+	android:roundIcon
+		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:14:9-54
 	tools:targetApi
-		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:14:9-29
+		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:17:9-29
 	android:icon
-		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:13:9-52
+		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:16:9-52
 	android:dataExtractionRules
-		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:7:9-65
+		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:10:9-65
 activity#com.example.prj_crudkotlin.MainActivity
-ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:15:9-25:20
+ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:18:9-28:20
 	android:label
-		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:18:13-45
+		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:21:13-45
 	android:exported
-		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:20:13-36
 	android:theme
-		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:19:13-56
+		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:22:13-56
 	android:name
-		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:19:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml:26:27-74
 uses-sdk
 INJECTED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml
 INJECTED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml
-MERGED from [androidx.navigation:navigation-common:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\b128229a874fdf8acafd575053897514\transformed\navigation-common-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\b128229a874fdf8acafd575053897514\transformed\navigation-common-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\c84b542d51f1dc5776d36393d6a419e4\transformed\navigation-runtime-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\c84b542d51f1dc5776d36393d6a419e4\transformed\navigation-runtime-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\a8c402f79fd7c37b9a8eac3d4ce72f54\transformed\navigation-common-ktx-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\a8c402f79fd7c37b9a8eac3d4ce72f54\transformed\navigation-common-ktx-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-ui:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\6e028959cca2302a875e34ebfb9957b7\transformed\navigation-ui-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-ui:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\6e028959cca2302a875e34ebfb9957b7\transformed\navigation-ui-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-fragment:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\dfecee265d99bf3fbe3da0f3a8329242\transformed\navigation-fragment-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-fragment:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\dfecee265d99bf3fbe3da0f3a8329242\transformed\navigation-fragment-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\1d2d6d19aee5e7879b4caf5a90915a14\transformed\navigation-runtime-ktx-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\1d2d6d19aee5e7879b4caf5a90915a14\transformed\navigation-runtime-ktx-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-ui-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\b1ea47db198e2880ecd011c44f1768b8\transformed\navigation-ui-ktx-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-ui-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\b1ea47db198e2880ecd011c44f1768b8\transformed\navigation-ui-ktx-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\156794ca7e1e3cc3f75a81e59fd2ac79\transformed\navigation-fragment-ktx-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\156794ca7e1e3cc3f75a81e59fd2ac79\transformed\navigation-fragment-ktx-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-compose:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\5544a3981411f699ce56612f465f071d\transformed\navigation-compose-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-compose:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\5544a3981411f699ce56612f465f071d\transformed\navigation-compose-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\Users\chicl\.gradle\caches\transforms-4\46b0470d8dfdd837adda4913de17efe4\transformed\fragment-ktx-1.6.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\Users\chicl\.gradle\caches\transforms-4\46b0470d8dfdd837adda4913de17efe4\transformed\fragment-ktx-1.6.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.4.0-beta01] C:\Users\chicl\.gradle\caches\transforms-4\24aded2b1003446e7e26e711b2aaf482\transformed\material-1.4.0-beta01\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.4.0-beta01] C:\Users\chicl\.gradle\caches\transforms-4\24aded2b1003446e7e26e711b2aaf482\transformed\material-1.4.0-beta01\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\7ff35801cec6878d023d162f26820f48\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\7ff35801cec6878d023d162f26820f48\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\chicl\.gradle\caches\transforms-4\47bdc7b1ba7619602a1cedc76964936e\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\chicl\.gradle\caches\transforms-4\47bdc7b1ba7619602a1cedc76964936e\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\chicl\.gradle\caches\transforms-4\dda3a78c51c102fd61cb661e5a3675e7\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\chicl\.gradle\caches\transforms-4\dda3a78c51c102fd61cb661e5a3675e7\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.6.0] C:\Users\chicl\.gradle\caches\transforms-4\a62ab0c5e4f37a033f8acac242b8c734\transformed\fragment-1.6.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.6.0] C:\Users\chicl\.gradle\caches\transforms-4\a62ab0c5e4f37a033f8acac242b8c734\transformed\fragment-1.6.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.8.0] C:\Users\chicl\.gradle\caches\transforms-4\e34400c79d589db24b332e6679fd0110\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.8.0] C:\Users\chicl\.gradle\caches\transforms-4\e34400c79d589db24b332e6679fd0110\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\chicl\.gradle\caches\transforms-4\44b938b797c90c53e906531f32622fbe\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\chicl\.gradle\caches\transforms-4\44b938b797c90c53e906531f32622fbe\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\chicl\.gradle\caches\transforms-4\1bbb0f9b7db799c307062a8ab41f1968\transformed\material3-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\chicl\.gradle\caches\transforms-4\1bbb0f9b7db799c307062a8ab41f1968\transformed\material3-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\ec2833f3f93c524691a27d7a0b8b6270\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\ec2833f3f93c524691a27d7a0b8b6270\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-compose:1.8.0] C:\Users\chicl\.gradle\caches\transforms-4\6cc489b0713e24da321f1f970f633f50\transformed\activity-compose-1.8.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.8.0] C:\Users\chicl\.gradle\caches\transforms-4\6cc489b0713e24da321f1f970f633f50\transformed\activity-compose-1.8.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\4c59e9157f69fae596d3187a3c9312e6\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\4c59e9157f69fae596d3187a3c9312e6\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\534678bca9f9bfd7da05442eec43832d\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\534678bca9f9bfd7da05442eec43832d\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\636927a45b0ca4acd080692bf8c528d4\transformed\material-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\636927a45b0ca4acd080692bf8c528d4\transformed\material-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\c0a14130192e7af8efacf1204926d525\transformed\animation-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\c0a14130192e7af8efacf1204926d525\transformed\animation-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\22d77fbb6bbea56f91bca81d4599c970\transformed\animation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\22d77fbb6bbea56f91bca81d4599c970\transformed\animation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\71668a0c0d57ece55f307489bf2edbe2\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\71668a0c0d57ece55f307489bf2edbe2\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\41a9674c4b5aa82e432fd479beac0869\transformed\foundation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\41a9674c4b5aa82e432fd479beac0869\transformed\foundation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\66cf4fa9b745069aa61a6a2df3f17841\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\66cf4fa9b745069aa61a6a2df3f17841\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\cb060f1e571377a6ad7844c7adc6dc9d\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\cb060f1e571377a6ad7844c7adc6dc9d\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\3a0c5016dc2c32e0a02065d4b1c3c84a\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\3a0c5016dc2c32e0a02065d4b1c3c84a\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\0c1d1aa0ce3490c7e4aecfa9780b8db5\transformed\ui-util-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\0c1d1aa0ce3490c7e4aecfa9780b8db5\transformed\ui-util-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\79069c511ec52d2681c224613e5d04fc\transformed\ui-text-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\79069c511ec52d2681c224613e5d04fc\transformed\ui-text-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\2ba49136e8710dba1b81ec9fc83455fe\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\2ba49136e8710dba1b81ec9fc83455fe\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\c1f54be5eab689614fc7b65c79acaa0d\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\c1f54be5eab689614fc7b65c79acaa0d\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\f34e364a9f7d4839fff6c53e4753e056\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\f34e364a9f7d4839fff6c53e4753e056\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\chicl\.gradle\caches\transforms-4\d2e0251ec812b779976448d23ff72545\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\chicl\.gradle\caches\transforms-4\d2e0251ec812b779976448d23ff72545\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\chicl\.gradle\caches\transforms-4\b9434e3f639316e70dac1362d0921d13\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\chicl\.gradle\caches\transforms-4\b9434e3f639316e70dac1362d0921d13\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\9d3b9a0f2d24a32b3597c56d7f65da29\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\9d3b9a0f2d24a32b3597c56d7f65da29\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\e7754741c5855d3edb517f173f464bfb\transformed\lifecycle-viewmodel-savedstate-2.8.5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\e7754741c5855d3edb517f173f464bfb\transformed\lifecycle-viewmodel-savedstate-2.8.5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\f0a28b60abbaba004120c3cbeecddb67\transformed\lifecycle-livedata-core-2.8.5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\f0a28b60abbaba004120c3cbeecddb67\transformed\lifecycle-livedata-core-2.8.5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2a31c0f6217c717740e1eb6c8a6c7443\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2a31c0f6217c717740e1eb6c8a6c7443\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\751087fa9dd2d88e58be7533e96d30b9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\751087fa9dd2d88e58be7533e96d30b9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\be8c646458a85fd8bcc1f1f2ce26bac8\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\be8c646458a85fd8bcc1f1f2ce26bac8\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\2045e54a9c60e72a9e69f8d5b6921c03\transformed\lifecycle-viewmodel-2.8.5\AndroidManifest.xml:4:5-43
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\2045e54a9c60e72a9e69f8d5b6921c03\transformed\lifecycle-viewmodel-2.8.5\AndroidManifest.xml:4:5-43
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\e223d4a025c8906c8b6e5ee21780fe27\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\e223d4a025c8906c8b6e5ee21780fe27\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\f9468165bcedf015fd23f40ed4aaa832\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\f9468165bcedf015fd23f40ed4aaa832\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\1b21cfdda937e5d3d02fe9900a7d1f36\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\1b21cfdda937e5d3d02fe9900a7d1f36\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\chicl\.gradle\caches\transforms-4\2ebbeff786f4745f862ca674dd6a5338\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\chicl\.gradle\caches\transforms-4\2ebbeff786f4745f862ca674dd6a5338\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\9c69c61bccde0984e891a9bbb7ac74bd\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\9c69c61bccde0984e891a9bbb7ac74bd\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\b968d2949e560aaa6b73324b4aba9ef1\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\b968d2949e560aaa6b73324b4aba9ef1\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\04bc777faa1a680a16b8fb0581abc1fa\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\04bc777faa1a680a16b8fb0581abc1fa\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\f8ae4eb9f6e0373c9c4ff9764d3e9597\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\f8ae4eb9f6e0373c9c4ff9764d3e9597\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\5238f0e5447e93a227893e92bdf49822\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\5238f0e5447e93a227893e92bdf49822\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\23e462fffbeb9abcb885259e04ec9688\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\23e462fffbeb9abcb885259e04ec9688\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\39d0bdcea7e88eabe6762ba5ed13ff9a\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\39d0bdcea7e88eabe6762ba5ed13ff9a\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.transition:transition:1.4.1] C:\Users\chicl\.gradle\caches\transforms-4\cd9a667c581962664ee7dc8c3ab5f07d\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.4.1] C:\Users\chicl\.gradle\caches\transforms-4\cd9a667c581962664ee7dc8c3ab5f07d\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2f6d592b9ee93138b3615e51adaf88cf\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2f6d592b9ee93138b3615e51adaf88cf\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\chicl\.gradle\caches\transforms-4\cd4a9049efefce8153a8f0c6dd3202ff\transformed\appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\chicl\.gradle\caches\transforms-4\cd4a9049efefce8153a8f0c6dd3202ff\transformed\appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\012c387e7071dbf23d385362c73eb435\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\012c387e7071dbf23d385362c73eb435\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\388e205c2eddfd81c1b60a377eb88f11\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\388e205c2eddfd81c1b60a377eb88f11\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\1d0fe5987146156f1caa571ab28fd372\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\1d0fe5987146156f1caa571ab28fd372\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\57a98bb18b6b3a6cb68bf08c50ad766a\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\57a98bb18b6b3a6cb68bf08c50ad766a\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\1dab7d549b9ccc88d7e89041e7e075ca\transformed\lifecycle-viewmodel-ktx-2.8.5\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\1dab7d549b9ccc88d7e89041e7e075ca\transformed\lifecycle-viewmodel-ktx-2.8.5\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\917484ac58fe362626b050e72dd1d725\transformed\lifecycle-livedata-core-ktx-2.8.5\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\917484ac58fe362626b050e72dd1d725\transformed\lifecycle-livedata-core-ktx-2.8.5\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\5e7c1fc049b44d5106b8c02e287a8ba7\transformed\lifecycle-livedata-2.8.5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\5e7c1fc049b44d5106b8c02e287a8ba7\transformed\lifecycle-livedata-2.8.5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\7ccf59225357cb9641a94ae4ae7cbabe\transformed\lifecycle-livedata-ktx-2.8.5\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\7ccf59225357cb9641a94ae4ae7cbabe\transformed\lifecycle-livedata-ktx-2.8.5\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\3b757a2a9d890ce74868ec12797b3792\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\3b757a2a9d890ce74868ec12797b3792\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\456f999ccb966d9d17861704e425de62\transformed\ui-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\456f999ccb966d9d17861704e425de62\transformed\ui-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\109d403fce0c363c88ac3cd5c73c9512\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\109d403fce0c363c88ac3cd5c73c9512\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\307c6a1bb9b3a2502a98968a021f0509\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\307c6a1bb9b3a2502a98968a021f0509\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\717f0349e806a70e6ca60c657b4ec8f4\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\717f0349e806a70e6ca60c657b4ec8f4\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\68622536708909b6f77db6a8789109a0\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\68622536708909b6f77db6a8789109a0\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\9424997a6775388baa7c7ec81e6fa171\transformed\runtime-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\9424997a6775388baa7c7ec81e6fa171\transformed\runtime-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\chicl\.gradle\caches\transforms-4\25caac401247ecf597a3e313ae3fa449\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\chicl\.gradle\caches\transforms-4\25caac401247ecf597a3e313ae3fa449\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\chicl\.gradle\caches\transforms-4\7c8e20ab87f7e4cc75983f21de59082a\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\chicl\.gradle\caches\transforms-4\7c8e20ab87f7e4cc75983f21de59082a\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\chicl\.gradle\caches\transforms-4\5ceb99b632d6e671a6e951636ac3f474\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\chicl\.gradle\caches\transforms-4\5ceb99b632d6e671a6e951636ac3f474\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\8c481cde341c17d1d88e3f4f60630110\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\8c481cde341c17d1d88e3f4f60630110\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\8712171e99ac0e16ba1d944cb0bbcc8e\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\8712171e99ac0e16ba1d944cb0bbcc8e\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\76137180cabf5fb1ffcd4bacdcbb1938\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\76137180cabf5fb1ffcd4bacdcbb1938\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\955ec0f8cc28114e8f0220fa0b679a81\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\955ec0f8cc28114e8f0220fa0b679a81\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\3f315265d64833c4ee203a6a38ca8fe4\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\3f315265d64833c4ee203a6a38ca8fe4\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\f9e57cbbe93c721a534f9cf346c4690c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\f9e57cbbe93c721a534f9cf346c4690c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\0314e93e36f44301000b1e6dae7969af\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\0314e93e36f44301000b1e6dae7969af\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\5120650d34775956ed13f4e592b3318b\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\5120650d34775956ed13f4e592b3318b\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\639fb84bf8dbcf49f601b269f4efa5c9\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\639fb84bf8dbcf49f601b269f4efa5c9\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\chicl\.gradle\caches\transforms-4\edd4be6670f3bdfc74b65e3fc24aa2dd\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\chicl\.gradle\caches\transforms-4\edd4be6670f3bdfc74b65e3fc24aa2dd\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\c0a505cab0cebb0a8e61fbae9fd64b2b\transformed\navigation-common-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\c0a505cab0cebb0a8e61fbae9fd64b2b\transformed\navigation-common-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\680d4d680e557de15baa35c231c12e79\transformed\navigation-runtime-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\680d4d680e557de15baa35c231c12e79\transformed\navigation-runtime-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\2813e4a425f652490c23c75e82969179\transformed\navigation-common-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\2813e4a425f652490c23c75e82969179\transformed\navigation-common-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\948230bc386e020f98fd5224f8adbb0d\transformed\navigation-ui-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\948230bc386e020f98fd5224f8adbb0d\transformed\navigation-ui-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\2bb0c31a63f2f1f55ff59964cb324a9f\transformed\navigation-fragment-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\2bb0c31a63f2f1f55ff59964cb324a9f\transformed\navigation-fragment-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\bc231ac377158df3a2d80cc1fd6447f0\transformed\navigation-runtime-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\bc231ac377158df3a2d80cc1fd6447f0\transformed\navigation-runtime-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\8a9ee54fd1608e6317ae82a2dcb11fcf\transformed\navigation-ui-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\8a9ee54fd1608e6317ae82a2dcb11fcf\transformed\navigation-ui-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\2c75f2a4952215f29f90293603336e6d\transformed\navigation-fragment-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\2c75f2a4952215f29f90293603336e6d\transformed\navigation-fragment-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\6ac13d889f0c5b6f6b9462163b53f1af\transformed\navigation-compose-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.0] C:\Users\chicl\.gradle\caches\transforms-4\6ac13d889f0c5b6f6b9462163b53f1af\transformed\navigation-compose-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\Users\chicl\.gradle\caches\transforms-4\2edcbc8155d615f1e730ba18d5943509\transformed\fragment-ktx-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\Users\chicl\.gradle\caches\transforms-4\2edcbc8155d615f1e730ba18d5943509\transformed\fragment-ktx-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0-beta01] C:\Users\chicl\.gradle\caches\transforms-4\a7cbb0d197ed3ce3e74f14f1924849ed\transformed\material-1.4.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0-beta01] C:\Users\chicl\.gradle\caches\transforms-4\a7cbb0d197ed3ce3e74f14f1924849ed\transformed\material-1.4.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\50d27d6d408b8e7bd012b34da0a28ce1\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\50d27d6d408b8e7bd012b34da0a28ce1\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\chicl\.gradle\caches\transforms-4\13a1af978c3cdb9fd49c05a848d6d6da\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\chicl\.gradle\caches\transforms-4\13a1af978c3cdb9fd49c05a848d6d6da\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\chicl\.gradle\caches\transforms-4\3f655baeeec4c327287eecaeb22f33fb\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\chicl\.gradle\caches\transforms-4\3f655baeeec4c327287eecaeb22f33fb\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.6.0] C:\Users\chicl\.gradle\caches\transforms-4\71c8886adf20eea9995f4fc3e3fe66ef\transformed\fragment-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.0] C:\Users\chicl\.gradle\caches\transforms-4\71c8886adf20eea9995f4fc3e3fe66ef\transformed\fragment-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\chicl\.gradle\caches\transforms-4\3b67fd762acbb83fffad022d4b96490f\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\chicl\.gradle\caches\transforms-4\3b67fd762acbb83fffad022d4b96490f\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\chicl\.gradle\caches\transforms-4\ac4f80cec517f5fd6ed5f15af40b30cc\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\chicl\.gradle\caches\transforms-4\ac4f80cec517f5fd6ed5f15af40b30cc\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\chicl\.gradle\caches\transforms-4\9b7bae37dfce599122e65e868f75d699\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\chicl\.gradle\caches\transforms-4\9b7bae37dfce599122e65e868f75d699\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\b0fc75e789698ee57fdea5c56843740c\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\b0fc75e789698ee57fdea5c56843740c\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.8.0] C:\Users\chicl\.gradle\caches\transforms-4\3465c6a7b20b1d27a70776c089734bef\transformed\activity-compose-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.0] C:\Users\chicl\.gradle\caches\transforms-4\3465c6a7b20b1d27a70776c089734bef\transformed\activity-compose-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\1578a8b07d27ed9efa43cfbe74cb6c1f\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\1578a8b07d27ed9efa43cfbe74cb6c1f\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\0a9741532d57647fcd071d127b714c2d\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\0a9741532d57647fcd071d127b714c2d\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\ff88ced835c10fc3131f1f8825359071\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\ff88ced835c10fc3131f1f8825359071\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\c5f4fcdc0403bcfd7bc536b350a72536\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\c5f4fcdc0403bcfd7bc536b350a72536\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\b434b0942ad877a1f0a872fb6a5c191f\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\b434b0942ad877a1f0a872fb6a5c191f\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\f21fccca95e59d89df01625dae447275\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\f21fccca95e59d89df01625dae447275\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\f935376bc678ee594e7bef5df9892e40\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\f935376bc678ee594e7bef5df9892e40\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\2d660e0b0cfe9b65d8358c7d6baad815\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\2d660e0b0cfe9b65d8358c7d6baad815\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\ada059c1cd5335ca5f27d26da5f8cb6f\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\ada059c1cd5335ca5f27d26da5f8cb6f\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\47a7e3613dc71879311fa91bb7fa2446\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\47a7e3613dc71879311fa91bb7fa2446\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\d6a1dabe3de1135ebfb9f4bbbd2ee820\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\d6a1dabe3de1135ebfb9f4bbbd2ee820\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\c4e5d18523d3d4226d5179666298a3f8\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\c4e5d18523d3d4226d5179666298a3f8\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\2a7386960eabf46e0d88595f72b76d0d\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\2a7386960eabf46e0d88595f72b76d0d\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\2a6a82f4b8953b4b8213015a065d9046\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\2a6a82f4b8953b4b8213015a065d9046\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] C:\Users\chicl\.gradle\caches\transforms-4\38b076d51a384251a53a8fadeb40f13e\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] C:\Users\chicl\.gradle\caches\transforms-4\38b076d51a384251a53a8fadeb40f13e\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\77b83a27d74a64197aaf5f0c3e3846db\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\77b83a27d74a64197aaf5f0c3e3846db\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\chicl\.gradle\caches\transforms-4\d909f44504ba17de2df70ebf9fe4da16\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\chicl\.gradle\caches\transforms-4\d909f44504ba17de2df70ebf9fe4da16\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\chicl\.gradle\caches\transforms-4\71242c7c487f428e6eb2a13782a942fe\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\chicl\.gradle\caches\transforms-4\71242c7c487f428e6eb2a13782a942fe\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\761e7779c12f2d99366cad5c97b29097\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\761e7779c12f2d99366cad5c97b29097\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\0721db4bfdeb1754ae62088343b0e662\transformed\lifecycle-viewmodel-savedstate-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\0721db4bfdeb1754ae62088343b0e662\transformed\lifecycle-viewmodel-savedstate-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\27268139fd0190311beb530dcd6c3a1c\transformed\lifecycle-livedata-core-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\27268139fd0190311beb530dcd6c3a1c\transformed\lifecycle-livedata-core-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\5182a575a99d8951f45fe46d41e20af4\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\5182a575a99d8951f45fe46d41e20af4\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\9841d46cc997c5bbe58dcff3076df57d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\9841d46cc997c5bbe58dcff3076df57d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\e78724bf6911b583804e4bd72e448ee6\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\e78724bf6911b583804e4bd72e448ee6\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\2a015c94fef4928a6f1c352e81099c6d\transformed\lifecycle-viewmodel-2.8.5\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\2a015c94fef4928a6f1c352e81099c6d\transformed\lifecycle-viewmodel-2.8.5\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\eed4137905faf13b65e9d91ff748948b\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\eed4137905faf13b65e9d91ff748948b\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\94c11d1107446d2561f72f8603f992da\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\94c11d1107446d2561f72f8603f992da\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\6a5f243cea7902b5e7ab8bf55a62392c\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\6a5f243cea7902b5e7ab8bf55a62392c\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\chicl\.gradle\caches\transforms-4\b0c05da4ad34ae71ca35b8d79ded9370\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\chicl\.gradle\caches\transforms-4\b0c05da4ad34ae71ca35b8d79ded9370\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\ddff110e2c4c10cee031ca25a25346ec\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\ddff110e2c4c10cee031ca25a25346ec\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\0fe2613df2beddd15efd4bdafe323c63\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\0fe2613df2beddd15efd4bdafe323c63\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2b7eac597d31c28de0cfafcddd392db0\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2b7eac597d31c28de0cfafcddd392db0\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\2326adb9c38624bb341c133ad9e0bd66\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\2326adb9c38624bb341c133ad9e0bd66\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\a3c772335e03ab806f244546a3f4295b\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\a3c772335e03ab806f244546a3f4295b\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\5efea1e8172f78455f126061c861368e\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\5efea1e8172f78455f126061c861368e\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\819d5b7db9e86b70327db53c4488b3fc\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\819d5b7db9e86b70327db53c4488b3fc\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\chicl\.gradle\caches\transforms-4\fe0e74a561735c1f99d67084a8e94cb2\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\chicl\.gradle\caches\transforms-4\fe0e74a561735c1f99d67084a8e94cb2\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\4ca04f0eaf798e2e5079b4930bb07af8\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\4ca04f0eaf798e2e5079b4930bb07af8\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\chicl\.gradle\caches\transforms-4\b4e4163677e6ebd825522e5ec34920e2\transformed\appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\chicl\.gradle\caches\transforms-4\b4e4163677e6ebd825522e5ec34920e2\transformed\appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\d88c37aad9d696b50632ffd471803f4f\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\d88c37aad9d696b50632ffd471803f4f\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\7cbb726d5f6471475cf4c4ad72f713fb\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\chicl\.gradle\caches\transforms-4\7cbb726d5f6471475cf4c4ad72f713fb\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\5c162a603a62068b8f1ef0b773e75f6a\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\5c162a603a62068b8f1ef0b773e75f6a\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\81e81b87e176ce5d696be03c4eec4985\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\81e81b87e176ce5d696be03c4eec4985\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\927634e1aadf6911aee28e6cc9c81c79\transformed\lifecycle-viewmodel-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\927634e1aadf6911aee28e6cc9c81c79\transformed\lifecycle-viewmodel-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\91eb304aa2ac6ff43e35c590ab49a7b0\transformed\lifecycle-livedata-core-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\91eb304aa2ac6ff43e35c590ab49a7b0\transformed\lifecycle-livedata-core-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\c93647d99f06af3474886c5d3a267082\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\c93647d99f06af3474886c5d3a267082\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] C:\Users\chicl\.gradle\caches\transforms-4\12831000a34ee81f9900ad3a7e0bc839\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] C:\Users\chicl\.gradle\caches\transforms-4\12831000a34ee81f9900ad3a7e0bc839\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-livedata:1.7.2] C:\Users\chicl\.gradle\caches\transforms-4\1616c445989d1644476b22d60d5d7e02\transformed\runtime-livedata-1.7.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-livedata:1.7.2] C:\Users\chicl\.gradle\caches\transforms-4\1616c445989d1644476b22d60d5d7e02\transformed\runtime-livedata-1.7.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\63c0e546997064fbf4b2effef578e0c6\transformed\lifecycle-livedata-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\63c0e546997064fbf4b2effef578e0c6\transformed\lifecycle-livedata-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\a01af57bde88e8289f2e2351b404eefa\transformed\lifecycle-livedata-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\a01af57bde88e8289f2e2351b404eefa\transformed\lifecycle-livedata-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\aa68c9c1b4e06cdd88673f5ad622ed7d\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\aa68c9c1b4e06cdd88673f5ad622ed7d\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\0426ca0d0466a9d991829516fef55482\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\0426ca0d0466a9d991829516fef55482\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\933022988cf4159ccc899bed09186bd4\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\933022988cf4159ccc899bed09186bd4\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\8f2ac7d4283381f234889c77323db88f\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\8f2ac7d4283381f234889c77323db88f\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\509166567a869490baba77ae70a0009a\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\509166567a869490baba77ae70a0009a\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\chicl\.gradle\caches\transforms-4\cb6c2d17eeaad3c2c2c2eac574055e37\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\chicl\.gradle\caches\transforms-4\cb6c2d17eeaad3c2c2c2eac574055e37\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\chicl\.gradle\caches\transforms-4\761e21a0b72045c382bbed59e7bb3b63\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\chicl\.gradle\caches\transforms-4\761e21a0b72045c382bbed59e7bb3b63\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\chicl\.gradle\caches\transforms-4\0547c64ba1f39b4be0d32d441bac2a12\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\chicl\.gradle\caches\transforms-4\0547c64ba1f39b4be0d32d441bac2a12\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\4aa2705e5c2663cd1982fd2328aa77b6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\4aa2705e5c2663cd1982fd2328aa77b6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\cd7b6e6bc33a9cace32c070586e65bc8\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\cd7b6e6bc33a9cace32c070586e65bc8\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\3295ab51c8675fd943994268a203679c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\3295ab51c8675fd943994268a203679c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\b86feb33693c016869d4abcca96580dd\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\b86feb33693c016869d4abcca96580dd\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\548d7c60b0dbc436de0de4a34ba368d5\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\548d7c60b0dbc436de0de4a34ba368d5\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\0d70db56edade89a573bc15db0fd26af\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\0d70db56edade89a573bc15db0fd26af\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\ea7e36d54c89b2167ed8af7446b990e9\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\ea7e36d54c89b2167ed8af7446b990e9\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\69526941601b3e3611288503b02d2482\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\69526941601b3e3611288503b02d2482\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2fe80b16ec3731e8d7d9370be590f1be\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2fe80b16ec3731e8d7d9370be590f1be\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\chicl\.gradle\caches\transforms-4\5bf864088e1dcba541cefabe7a1ea44a\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\chicl\.gradle\caches\transforms-4\5bf864088e1dcba541cefabe7a1ea44a\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
 		INJECTED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from D:\FACULDADE\tap mobile\app\src\main\AndroidManifest.xml
 activity#androidx.compose.ui.tooling.PreviewActivity
-ADDED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\ec2833f3f93c524691a27d7a0b8b6270\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\b0fc75e789698ee57fdea5c56843740c\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
 	android:exported
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\ec2833f3f93c524691a27d7a0b8b6270\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\b0fc75e789698ee57fdea5c56843740c\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\ec2833f3f93c524691a27d7a0b8b6270\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\b0fc75e789698ee57fdea5c56843740c\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\f34e364a9f7d4839fff6c53e4753e056\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\9d3b9a0f2d24a32b3597c56d7f65da29\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\9d3b9a0f2d24a32b3597c56d7f65da29\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\8c481cde341c17d1d88e3f4f60630110\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\8c481cde341c17d1d88e3f4f60630110\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\77b83a27d74a64197aaf5f0c3e3846db\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\761e7779c12f2d99366cad5c97b29097\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\761e7779c12f2d99366cad5c97b29097\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\4aa2705e5c2663cd1982fd2328aa77b6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\chicl\.gradle\caches\transforms-4\4aa2705e5c2663cd1982fd2328aa77b6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\f34e364a9f7d4839fff6c53e4753e056\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\77b83a27d74a64197aaf5f0c3e3846db\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\f34e364a9f7d4839fff6c53e4753e056\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\77b83a27d74a64197aaf5f0c3e3846db\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\f34e364a9f7d4839fff6c53e4753e056\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\77b83a27d74a64197aaf5f0c3e3846db\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\f34e364a9f7d4839fff6c53e4753e056\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\77b83a27d74a64197aaf5f0c3e3846db\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\f34e364a9f7d4839fff6c53e4753e056\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\77b83a27d74a64197aaf5f0c3e3846db\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\f34e364a9f7d4839fff6c53e4753e056\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\77b83a27d74a64197aaf5f0c3e3846db\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\f34e364a9f7d4839fff6c53e4753e056\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\chicl\.gradle\caches\transforms-4\77b83a27d74a64197aaf5f0c3e3846db\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\9d3b9a0f2d24a32b3597c56d7f65da29\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\761e7779c12f2d99366cad5c97b29097\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\9d3b9a0f2d24a32b3597c56d7f65da29\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\761e7779c12f2d99366cad5c97b29097\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\9d3b9a0f2d24a32b3597c56d7f65da29\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:30:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\chicl\.gradle\caches\transforms-4\761e7779c12f2d99366cad5c97b29097\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:30:17-78
 uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2f6d592b9ee93138b3615e51adaf88cf\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+ADDED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\4ca04f0eaf798e2e5079b4930bb07af8\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2f6d592b9ee93138b3615e51adaf88cf\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+		ADDED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\4ca04f0eaf798e2e5079b4930bb07af8\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2f6d592b9ee93138b3615e51adaf88cf\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+		ADDED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\4ca04f0eaf798e2e5079b4930bb07af8\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
 uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2f6d592b9ee93138b3615e51adaf88cf\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+ADDED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\4ca04f0eaf798e2e5079b4930bb07af8\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2f6d592b9ee93138b3615e51adaf88cf\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+		ADDED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\4ca04f0eaf798e2e5079b4930bb07af8\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\2f6d592b9ee93138b3615e51adaf88cf\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+		ADDED from [androidx.window:window:1.0.0] C:\Users\chicl\.gradle\caches\transforms-4\4ca04f0eaf798e2e5079b4930bb07af8\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\1d0fe5987146156f1caa571ab28fd372\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\5c162a603a62068b8f1ef0b773e75f6a\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\1d0fe5987146156f1caa571ab28fd372\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\5c162a603a62068b8f1ef0b773e75f6a\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\1d0fe5987146156f1caa571ab28fd372\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\5c162a603a62068b8f1ef0b773e75f6a\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
 permission#com.example.prj_crudkotlin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\1d0fe5987146156f1caa571ab28fd372\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\5c162a603a62068b8f1ef0b773e75f6a\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\1d0fe5987146156f1caa571ab28fd372\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\5c162a603a62068b8f1ef0b773e75f6a\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\1d0fe5987146156f1caa571ab28fd372\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\5c162a603a62068b8f1ef0b773e75f6a\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\1d0fe5987146156f1caa571ab28fd372\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\5c162a603a62068b8f1ef0b773e75f6a\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\1d0fe5987146156f1caa571ab28fd372\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\5c162a603a62068b8f1ef0b773e75f6a\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 uses-permission#com.example.prj_crudkotlin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\1d0fe5987146156f1caa571ab28fd372\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\5c162a603a62068b8f1ef0b773e75f6a\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\1d0fe5987146156f1caa571ab28fd372\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.12.0] C:\Users\chicl\.gradle\caches\transforms-4\5c162a603a62068b8f1ef0b773e75f6a\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 activity#androidx.activity.ComponentActivity
-ADDED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\109d403fce0c363c88ac3cd5c73c9512\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:23:9-25:39
+ADDED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\933022988cf4159ccc899bed09186bd4\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:23:9-25:39
 	android:exported
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\109d403fce0c363c88ac3cd5c73c9512\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:25:13-36
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\933022988cf4159ccc899bed09186bd4\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\109d403fce0c363c88ac3cd5c73c9512\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:24:13-63
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\chicl\.gradle\caches\transforms-4\933022988cf4159ccc899bed09186bd4\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:24:13-63
 service#androidx.room.MultiInstanceInvalidationService
-ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\307c6a1bb9b3a2502a98968a021f0509\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\8f2ac7d4283381f234889c77323db88f\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
 	android:exported
-		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\307c6a1bb9b3a2502a98968a021f0509\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\8f2ac7d4283381f234889c77323db88f\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
 	tools:ignore
-		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\307c6a1bb9b3a2502a98968a021f0509\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\8f2ac7d4283381f234889c77323db88f\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
 	android:directBootAware
-		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\307c6a1bb9b3a2502a98968a021f0509\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\8f2ac7d4283381f234889c77323db88f\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
 	android:name
-		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\307c6a1bb9b3a2502a98968a021f0509\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\chicl\.gradle\caches\transforms-4\8f2ac7d4283381f234889c77323db88f\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
 receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
 	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
 	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\39c2b41f3584913743ad9bd5f263d027\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chicl\.gradle\caches\transforms-4\791b0e1c037aa1eb41f26b160bccd0dd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92

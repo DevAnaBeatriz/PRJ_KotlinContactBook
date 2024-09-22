@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.prj_crudkotlin.app-mergeDebugResources-73:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.example.prj_crudkotlin.app-mergeDebugResources-75:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chicl\\.gradle\\caches\\transforms-4\\dda3a78c51c102fd61cb661e5a3675e7\\transformed\\appcompat-1.2.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\chicl\\.gradle\\caches\\transforms-4\\3f655baeeec4c327287eecaeb22f33fb\\transformed\\appcompat-1.2.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

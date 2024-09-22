@@ -8,6 +8,10 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="34" />
 
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
     <permission
         android:name="com.example.prj_crudkotlin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />

@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.prj_crudkotlin.app-mergeDebugResources-73:/values-sl/values-sl.xml",
+            "outputFile": "com.example.prj_crudkotlin.app-mergeDebugResources-75:/values-sl/values-sl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chicl\\.gradle\\caches\\transforms-4\\1d0fe5987146156f1caa571ab28fd372\\transformed\\core-1.12.0\\res\\values-sl\\values-sl.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,152,254,352,456,559,661,778",
-                        "endColumns": "96,101,97,103,102,101,116,100",
-                        "endOffsets": "147,249,347,451,554,656,773,874"
-                    },
-                    "to": {
-                        "startLines": "36,37,38,39,40,41,42,169",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3206,3303,3405,3503,3607,3710,3812,15885",
-                        "endColumns": "96,101,97,103,102,101,116,100",
-                        "endOffsets": "3298,3400,3498,3602,3705,3807,3924,15981"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chicl\\.gradle\\caches\\transforms-4\\456f999ccb966d9d17861704e425de62\\transformed\\ui-release\\res\\values-sl\\values-sl.xml",
+                    "source": "C:\\Users\\chicl\\.gradle\\caches\\transforms-4\\0426ca0d0466a9d991829516fef55482\\transformed\\ui-release\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\chicl\\.gradle\\caches\\transforms-4\\6e028959cca2302a875e34ebfb9957b7\\transformed\\navigation-ui-2.7.0\\res\\values-sl\\values-sl.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,163",
-                        "endColumns": "107,120",
-                        "endOffsets": "158,279"
-                    },
-                    "to": {
-                        "startLines": "158,159",
-                        "startColumns": "4,4",
-                        "startOffsets": "14936,15044",
-                        "endColumns": "107,120",
-                        "endOffsets": "15039,15160"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chicl\\.gradle\\caches\\transforms-4\\24aded2b1003446e7e26e711b2aaf482\\transformed\\material-1.4.0-beta01\\res\\values-sl\\values-sl.xml",
+                    "source": "C:\\Users\\chicl\\.gradle\\caches\\transforms-4\\a7cbb0d197ed3ce3e74f14f1924849ed\\transformed\\material-1.4.0-beta01\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -74,7 +40,58 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\chicl\\.gradle\\caches\\transforms-4\\1bbb0f9b7db799c307062a8ab41f1968\\transformed\\material3-release\\res\\values-sl\\values-sl.xml",
+                    "source": "C:\\Users\\chicl\\.gradle\\caches\\transforms-4\\3f655baeeec4c327287eecaeb22f33fb\\transformed\\appcompat-1.2.0\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,217,319,427,514,617,736,817,895,987,1081,1176,1270,1365,1459,1555,1655,1747,1839,1923,2031,2139,2239,2352,2460,2568,2751,2851",
+                        "endColumns": "111,101,107,86,102,118,80,77,91,93,94,93,94,93,95,99,91,91,83,107,107,99,112,107,107,182,99,83",
+                        "endOffsets": "212,314,422,509,612,731,812,890,982,1076,1171,1265,1360,1454,1550,1650,1742,1834,1918,2026,2134,2234,2347,2455,2563,2746,2846,2930"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,167",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "372,484,586,694,781,884,1003,1084,1162,1254,1348,1443,1537,1632,1726,1822,1922,2014,2106,2190,2298,2406,2506,2619,2727,2835,3018,15729",
+                        "endColumns": "111,101,107,86,102,118,80,77,91,93,94,93,94,93,95,99,91,91,83,107,107,99,112,107,107,182,99,83",
+                        "endOffsets": "479,581,689,776,879,998,1079,1157,1249,1343,1438,1532,1627,1721,1817,1917,2009,2101,2185,2293,2401,2501,2614,2722,2830,3013,3113,15808"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\chicl\\.gradle\\caches\\transforms-4\\5c162a603a62068b8f1ef0b773e75f6a\\transformed\\core-1.12.0\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,352,456,559,661,778",
+                        "endColumns": "96,101,97,103,102,101,116,100",
+                        "endOffsets": "147,249,347,451,554,656,773,874"
+                    },
+                    "to": {
+                        "startLines": "36,37,38,39,40,41,42,169",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3206,3303,3405,3503,3607,3710,3812,15885",
+                        "endColumns": "96,101,97,103,102,101,116,100",
+                        "endOffsets": "3298,3400,3498,3602,3705,3807,3924,15981"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\chicl\\.gradle\\caches\\transforms-4\\948230bc386e020f98fd5224f8adbb0d\\transformed\\navigation-ui-2.7.0\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,163",
+                        "endColumns": "107,120",
+                        "endOffsets": "158,279"
+                    },
+                    "to": {
+                        "startLines": "158,159",
+                        "startColumns": "4,4",
+                        "startOffsets": "14936,15044",
+                        "endColumns": "107,120",
+                        "endOffsets": "15039,15160"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\chicl\\.gradle\\caches\\transforms-4\\9b7bae37dfce599122e65e868f75d699\\transformed\\material3-release\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -91,7 +108,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\chicl\\.gradle\\caches\\transforms-4\\41a9674c4b5aa82e432fd479beac0869\\transformed\\foundation-release\\res\\values-sl\\values-sl.xml",
+                    "source": "C:\\Users\\chicl\\.gradle\\caches\\transforms-4\\f935376bc678ee594e7bef5df9892e40\\transformed\\foundation-release\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -105,23 +122,6 @@
                         "startOffsets": "16255,16345",
                         "endColumns": "89,90",
                         "endOffsets": "16340,16431"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chicl\\.gradle\\caches\\transforms-4\\dda3a78c51c102fd61cb661e5a3675e7\\transformed\\appcompat-1.2.0\\res\\values-sl\\values-sl.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,217,319,427,514,617,736,817,895,987,1081,1176,1270,1365,1459,1555,1655,1747,1839,1923,2031,2139,2239,2352,2460,2568,2751,2851",
-                        "endColumns": "111,101,107,86,102,118,80,77,91,93,94,93,94,93,95,99,91,91,83,107,107,99,112,107,107,182,99,83",
-                        "endOffsets": "212,314,422,509,612,731,812,890,982,1076,1171,1265,1360,1454,1550,1650,1742,1834,1918,2026,2134,2234,2347,2455,2563,2746,2846,2930"
-                    },
-                    "to": {
-                        "startLines": "8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,167",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "372,484,586,694,781,884,1003,1084,1162,1254,1348,1443,1537,1632,1726,1822,1922,2014,2106,2190,2298,2406,2506,2619,2727,2835,3018,15729",
-                        "endColumns": "111,101,107,86,102,118,80,77,91,93,94,93,94,93,95,99,91,91,83,107,107,99,112,107,107,182,99,83",
-                        "endOffsets": "479,581,689,776,879,998,1079,1157,1249,1343,1438,1532,1627,1721,1817,1917,2009,2101,2185,2293,2401,2501,2614,2722,2830,3013,3113,15808"
                     }
                 }
             ]

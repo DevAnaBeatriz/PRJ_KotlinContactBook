@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.prj_crudkotlin.app-mergeDebugResources-73:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+            "outputFile": "com.example.prj_crudkotlin.app-mergeDebugResources-75:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chicl\\.gradle\\caches\\transforms-4\\24aded2b1003446e7e26e711b2aaf482\\transformed\\material-1.4.0-beta01\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
+                    "source": "C:\\Users\\chicl\\.gradle\\caches\\transforms-4\\a7cbb0d197ed3ce3e74f14f1924849ed\\transformed\\material-1.4.0-beta01\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

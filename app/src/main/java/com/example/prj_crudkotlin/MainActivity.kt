@@ -3,11 +3,14 @@ package com.example.prj_crudkotlin
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.provider.CalendarContract.Colors
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -54,10 +57,18 @@ import androidx.compose.material3.*
 import androidx.compose.material.icons.filled.Settings
 
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.text.ClickableText
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material.icons.filled.Email
 import androidx.compose.material.icons.filled.Phone
+import androidx.compose.material3.AlertDialogDefaults.containerColor
+import androidx.compose.material3.ListItemDefaults.contentColor
+import androidx.compose.material3.SnackbarDefaults.contentColor
+import androidx.compose.runtime.livedata.observeAsState
 
 
 import androidx.compose.ui.Alignment
@@ -65,12 +76,13 @@ import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
-import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.ui.tooling.preview.Preview
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
 
 
 class MainActivity : ComponentActivity() {
@@ -91,6 +103,7 @@ class MainActivity : ComponentActivity() {
             }
         }
     )
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -100,233 +113,546 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
-
 }
 
-@Composable
-fun App(viewModel: PessoaViewModel, mainActivity: MainActivity) {
-    var selectedItem by remember { mutableStateOf(0) }
-    val items = listOf("Home", "Cadastro", "Configurações")
+    @Composable
+    fun App(viewModel: PessoaViewModel, mainActivity: MainActivity) {
+        var selectedItem by remember { mutableStateOf(0) }
+        val items = listOf("Home", "Cadastro", "Mensagem")
 
-    Scaffold(
-        bottomBar = {
-            NavigationBar(containerColor = Color.Black) {
-                items.forEachIndexed { index, item ->
-                    NavigationBarItem(
-                        icon = {
-                            when (index) {
-                                0 -> Icon(Icons.Filled.Home, contentDescription = item)
-                                1 -> Icon(Icons.Filled.Person, contentDescription = item)
-                                2 -> Icon(Icons.Filled.Settings, contentDescription = item)
+        var pessoaBeingEdited by remember { mutableStateOf<Pessoa?>(null) }
+        var isEditing by remember { mutableStateOf(false) }
+
+        Scaffold(
+            bottomBar = {
+                NavigationBar(containerColor = Color.Black) {
+                    items.forEachIndexed { index, item ->
+                        NavigationBarItem(
+                            icon = {
+                                when (index) {
+                                    0 -> Icon(Icons.Filled.Home, contentDescription = item)
+                                    1 -> Icon(Icons.Filled.Person, contentDescription = item)
+                                    2 -> Icon(Icons.Filled.Email, contentDescription = item)
+                                }
+                            },
+                            label = { Text(item) },
+                            selected = selectedItem == index,
+                            onClick = {
+                                if (index == 1) {
+                                    pessoaBeingEdited = null
+                                    isEditing = false
+                                }
+                                selectedItem = index
                             }
-                        },
-                        label = { Text(item) },
-                        selected = selectedItem == index,
-                        onClick = { selectedItem = index }
-                    )
+                        )
+                    }
                 }
             }
-        }
-    ) { innerPadding ->
-        Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(innerPadding)
-        ) {
-            when (selectedItem) {
-                0 -> HomeScreen(viewModel, mainActivity)
-                1 -> CadastroScreen(viewModel)
-                2 -> SettingsScreen()
+        ) { innerPadding ->
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(innerPadding)
+            ) {
+                when (selectedItem) {
+                    0 -> HomeScreen(
+                        viewModel,
+                        mainActivity,
+                        onNavigateToCadastro = { pessoa, editing ->
+                            pessoaBeingEdited = pessoa
+                            isEditing = editing
+                            selectedItem = 1
+                        })
+
+                    1 -> CadastroScreen(
+                        viewModel,
+                        pessoaBeingEdited,
+                        isEditing,
+                        onNavigate = { screen ->
+                            selectedItem = screen
+                        })
+
+                    2 -> SmsScreen(viewModel, mainActivity)
+                }
             }
         }
     }
-}
 
 @Composable
-fun HomeScreen(viewModel: PessoaViewModel, mainActivity: MainActivity) {
-    var pessoaList by remember { mutableStateOf(listOf<Pessoa>()) }
-    viewModel.getPessoa().observe(mainActivity) { pessoaList = it }
+fun showDeleteConfirmationDialog(mainActivity: MainActivity, pessoa: Pessoa, viewModel: PessoaViewModel) {
+    val context = LocalContext.current
+    val openDialog = remember { mutableStateOf(false) }
 
-    Column(
-        Modifier
-            .fillMaxSize()
-            .background(Color.Black)
-            .padding(16.dp),
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        Text(
-            text = "Lista de Contatos",
-            fontFamily = FontFamily.Serif,
-            fontWeight = FontWeight.Bold,
-            fontSize = 30.sp,
-            color = Color.White
-        )
-
-        Divider(color = Color.White, thickness = 2.dp, modifier = Modifier.padding(vertical = 10.dp))
-
-        LazyColumn {
-            items(pessoaList) { pessoa ->
-                val context = LocalContext.current
-
-                Row(
-                    Modifier
-                        .fillMaxWidth()
-                        .padding(8.dp),
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
-                    Row(
-                        Modifier.weight(1f),
-                        verticalAlignment = Alignment.CenterVertically
-                    ) {
-                        Icon(
-                            imageVector = Icons.Default.Person,
-                            contentDescription = "Ícone de pessoa",
-                            tint = Color.White
-                        )
-                        Spacer(modifier = Modifier.width(8.dp))
-                        Text(text = pessoa.name, color = Color.White)
+    if (openDialog.value) {
+        AlertDialog(
+            onDismissRequest = { openDialog.value = false },
+            title = { Text("Confirmar Deleção") },
+            text = { Text("Você realmente deseja deletar ${pessoa.name}?") },
+            confirmButton = {
+                Button(
+                    onClick = {
+                        viewModel.deletePessoa(pessoa)
+                        openDialog.value = false
                     }
+                ) {
+                    Text("Deletar")
+                }
+            },
+            dismissButton = {
+                Button(onClick = { openDialog.value = false }) {
+                    Text("Cancelar")
+                }
+            }
+        )
+    }
+}
 
-                    Row(
-                        Modifier.weight(1f),
-                        verticalAlignment = Alignment.CenterVertically
+
+@Composable
+fun HomeScreen(
+    viewModel: PessoaViewModel,
+    mainActivity: MainActivity,
+    onNavigateToCadastro: (Pessoa?, Boolean) -> Unit
+) {
+    var pessoaList by remember { mutableStateOf(listOf<Pessoa>()) }
+    var expandedItemId by remember { mutableStateOf<Long?>(null) }
+
+    var openDialog by remember { mutableStateOf(false) }
+    var pessoaToDelete by remember { mutableStateOf<Pessoa?>(null) }
+
+
+    viewModel.getPessoa().observe(mainActivity) { pessoaList = it.sortedBy { it.name } }
+    Column(
+        Modifier.background(Color.Black)
+    ){
+
+        Column(
+            Modifier
+                .fillMaxSize()
+                .padding(top = 80.dp),
+
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Text(
+                text = "Contatos",
+                fontFamily = FontFamily.Default,
+                fontWeight = FontWeight.Thin,
+                fontSize = 55.sp,
+                color = Color.White
+            )
+            Spacer(Modifier.padding(top = 10.dp))
+            Box(
+                modifier = Modifier
+                    .size(200.dp, 30.dp),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = "${pessoaList.size} contatos encontrados",
+                    fontFamily = FontFamily.Default,
+                    fontWeight = FontWeight.Normal,
+                    fontSize = 15.sp,
+                    color = Color.Gray
+                )
+            }
+            Spacer(Modifier.padding(bottom = 80.dp))
+
+            LazyColumn(
+                modifier = Modifier
+                    .background(color = Color(0xFFF0F0F0), shape = RoundedCornerShape(16.dp))
+                    .padding(8.dp)
+            ) {
+                items(pessoaList) { pessoa ->
+                    Column (Modifier
+                        .fillMaxWidth()
+                        .padding(8.dp)
+                        .background(
+                            Color.White,
+                            shape = RoundedCornerShape(12.dp)
+                        )
+                        .clickable {
+                            expandedItemId =
+                                if (expandedItemId == pessoa.id?.toLong()) null else pessoa.id?.toLong()
+                        }
+                        .padding(16.dp),
+                        verticalArrangement = Arrangement.Center
                     ) {
-                        Icon(
-                            imageVector = Icons.Default.Phone,
-                            contentDescription = "Ícone de telefone",
-                            tint = Color.White
-                        )
-                        Spacer(modifier = Modifier.width(8.dp))
-                        ClickableText(
-                            text = AnnotatedString(pessoa.telefone),
-                            style = LocalTextStyle.current.copy(
-                                color = Color.White,
-                                textDecoration = TextDecoration.Underline
-                            ),
-                            onClick = {
-                                val intent = Intent(Intent.ACTION_DIAL).apply {
-                                    data = Uri.parse("tel:${pessoa.telefone}")
-                                }
-                                context.startActivity(intent)
+                        Row(
+                            Modifier
+                                .fillMaxWidth()
+
+                                .background(
+                                    Color.White,
+                                    shape = RoundedCornerShape(12.dp)
+                                ) ,
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Box(
+                                modifier = Modifier
+                                    .size(40.dp)
+                                    .background(
+                                        Color.LightGray,
+                                        shape = CircleShape
+                                    )
+                                    .padding(8.dp),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Icon(
+                                    imageVector = Icons.Default.Person,
+                                    contentDescription = "Ícone de pessoa",
+                                    tint = Color.White
+                                )
                             }
-                        )
+                            Spacer(modifier = Modifier.width(16.dp))
+                            Text(
+                                fontSize = 20.sp,
+                                fontWeight = FontWeight.Bold,
+                                text = pessoa.name,
+                                color = Color.Black
+                            )
+                        }
+
+                        if (expandedItemId == pessoa.id?.toLong()) {
+                            Column(Modifier.padding(start = 16.dp)) {
+                                Row(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    verticalAlignment = Alignment.CenterVertically,
+                                    horizontalArrangement = Arrangement.SpaceBetween
+                                ) {
+                                    Row(verticalAlignment = Alignment.CenterVertically) {
+                                        Icon(
+                                            imageVector = Icons.Default.Phone,
+                                            contentDescription = "Ícone de telefone",
+                                            tint = Color.Gray
+                                        )
+                                        Spacer(modifier = Modifier.width(8.dp))
+                                        Text(
+                                            text = pessoa.telefone ?: "Sem telefone",
+                                            color = Color.Gray,
+                                            modifier = Modifier.clickable {
+                                                val uri = Uri.parse("tel:${pessoa.telefone}")
+                                                val intent = Intent(Intent.ACTION_DIAL, uri)
+                                                mainActivity.startActivity(intent)
+                                            }
+                                        )
+                                    }
+
+                                    Row {
+                                        IconButton(onClick = { onNavigateToCadastro(pessoa, true) }) {
+                                            Icon(
+                                                imageVector = Icons.Default.Edit,
+                                                contentDescription = "Edit",
+                                                tint = Color.Gray
+                                            )
+                                        }
+
+                                        IconButton(onClick = {
+                                            pessoaToDelete = pessoa
+                                            openDialog = true
+                                        }) {
+                                            Icon(
+                                                imageVector = Icons.Default.Delete,
+                                                contentDescription = "Delete",
+                                                tint = Color.Gray
+                                            )
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
-                Divider(color = Color.Gray, thickness = 1.dp)
             }
         }
 
+        // diálogo de confirmação
+        if (openDialog && pessoaToDelete != null) {
+            AlertDialog(
+                onDismissRequest = { openDialog = false },
+                title = { Text("Confirmar Deleção") },
+                text = { Text("Você realmente deseja deletar ${pessoaToDelete?.name}?") },
+                confirmButton = {
+                    Button(onClick = {
+                        viewModel.deletePessoa(pessoaToDelete!!)
+                        openDialog = false
+                        pessoaToDelete = null
+                    }) {
+                        Text("Deletar")
+                    }
+                },
+                dismissButton = {
+                    Button(onClick = { openDialog = false }) {
+                        Text("Cancelar")
+                    }
+                }
+            )
+        }
     }
 }
 
 @OptIn(ExperimentalComposeUiApi::class)
-@Composable
-fun CadastroScreen(viewModel: PessoaViewModel) {
-    var nome by remember { mutableStateOf(TextFieldValue("")) }
-    var telefone by remember { mutableStateOf(TextFieldValue("")) }
-
-    val focusManager = LocalFocusManager.current
-    val keyboardController = LocalSoftwareKeyboardController.current
-
-    Column(
-        Modifier
-            .fillMaxSize()
-            .padding(16.dp),
-        horizontalAlignment = Alignment.CenterHorizontally
+    @Composable
+    fun CadastroScreen(
+        viewModel: PessoaViewModel,
+        pessoaBeingEdited: Pessoa?,
+        isEditing: Boolean,
+        onNavigate: (Int) -> Unit
     ) {
-        Text(
-            text = "Cadastrar Contatos",
-            fontFamily = FontFamily.Serif,
-            fontWeight = FontWeight.Bold,
-            fontSize = 30.sp,
-            color = Color.White,
-            textAlign = TextAlign.Center
-        )
-
-        Divider(color = Color.White, thickness = 2.dp, modifier = Modifier.padding(vertical = 10.dp))
-
-        TextField(
-            value = nome,
-            onValueChange = { nome = it },
-            label = { Text("Nome") },
-            keyboardOptions = KeyboardOptions.Default.copy(
-                imeAction = ImeAction.Next
-            ),
-            keyboardActions = KeyboardActions(
-                onNext = { focusManager.moveFocus(androidx.compose.ui.focus.FocusDirection.Down) }
+        var nome by remember { mutableStateOf(TextFieldValue(pessoaBeingEdited?.name ?: "")) }
+        var telefone by remember {
+            mutableStateOf(
+                TextFieldValue(
+                    pessoaBeingEdited?.telefone ?: ""
+                )
             )
-        )
+        }
 
-        Spacer(modifier = Modifier.height(16.dp))
+        val focusManager = LocalFocusManager.current
+        val keyboardController = LocalSoftwareKeyboardController.current
 
-        TextField(
-            value = telefone,
-            onValueChange = {
+        fun formatPhoneNumber(text: String): String {
+            val digits = text.filter { it.isDigit() }
+            return when (digits.length) {
+                in 0..2 -> digits
+                in 3..6 -> "(${digits.substring(0, 2)}) ${digits.substring(2)}"
+                in 7..10 -> "(${digits.substring(0, 2)}) ${
+                    digits.substring(
+                        2,
+                        7
+                    )
+                }-${digits.substring(7)}"
 
-                if (it.text.all { char -> char.isDigit() }) {
-                    telefone = it
-                }
-            },
-            label = { Text("Telefone") },
-            keyboardOptions = KeyboardOptions(
-                keyboardType = KeyboardType.Number,
-                imeAction = ImeAction.Done
-            ),
-            keyboardActions = KeyboardActions(
-                onDone = {
+                else -> "(${digits.substring(0, 2)}) ${digits.substring(2, 7)}-${
+                    digits.substring(
+                        7,
+                        11
+                    )
+                }"
+            }
+        }
+
+        Column(
+            Modifier
+                .background(Color.Black)
+                .fillMaxSize()
+                .padding(16.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Spacer(modifier = Modifier.height(40.dp))
+            Text(
+                text = if (isEditing) "Atualizar" else "Cadastrar",
+                fontFamily = FontFamily.Default,
+                fontWeight = FontWeight.Thin,
+                fontSize = 55.sp,
+                color = Color.White,
+                textAlign = TextAlign.Center
+            )
+            Text(
+                text = "Contato",
+                fontFamily = FontFamily.Default,
+                fontWeight = FontWeight.Thin,
+                fontSize = 55.sp,
+                color = Color.White,
+                textAlign = TextAlign.Center
+            )
+            Spacer(modifier = Modifier.height(40.dp))
+            TextField(
+                placeholder = {Text("Digite o nome...")},
+                value = nome,
+                onValueChange = { nome = it },
+                label = { Text("Nome") },
+                keyboardOptions = KeyboardOptions.Default.copy(
+                    imeAction = ImeAction.Next
+                ),
+                keyboardActions = KeyboardActions(
+                    onNext = { focusManager.moveFocus(androidx.compose.ui.focus.FocusDirection.Down) }
+                )
+            )
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+            TextField(
+                placeholder = {Text("Digite o número...")},
+                value = TextFieldValue(formatPhoneNumber(telefone.text)),
+                onValueChange = {
+                    if (it.text.filter { char -> char.isDigit() }.length <= 11) {
+                        telefone = it.copy(text = formatPhoneNumber(it.text))
+                    }
+                },
+                label = { Text("Telefone") },
+                keyboardOptions = KeyboardOptions(
+                    keyboardType = KeyboardType.Number,
+                    imeAction = ImeAction.Done
+                ),
+                keyboardActions = KeyboardActions(
+                    onDone = {
+                        if (nome.text.isNotEmpty() && telefone.text.isNotEmpty()) {
+                            if (isEditing) {
+                                viewModel.upsertPessoa(
+                                    Pessoa(nome.text, telefone.text, pessoaBeingEdited!!.id)
+                                )
+                            } else {
+                                viewModel.upsertPessoa(Pessoa(nome.text, telefone.text))
+                            }
+                            nome = TextFieldValue("")
+                            telefone = TextFieldValue("")
+                            keyboardController?.hide()
+
+                            onNavigate(0)
+                        }
+                    }
+                )
+            )
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+            Button(
+                modifier= Modifier.fillMaxWidth()
+                    .padding(start = 20.dp, end = 20.dp),
+                shape = RoundedCornerShape(8.dp),
+                enabled = nome.text.isNotEmpty() && telefone.text.isNotEmpty(),
+                onClick = {
                     if (nome.text.isNotEmpty() && telefone.text.isNotEmpty()) {
-                        viewModel.upsertPessoa(Pessoa(nome.text, telefone.text))
+                        if (isEditing) {
+
+                            viewModel.upsertPessoa(
+                                Pessoa(nome.text, telefone.text, pessoaBeingEdited!!.id)
+                            )
+                        } else {
+
+                            viewModel.upsertPessoa(Pessoa(nome.text, telefone.text))
+                        }
                         nome = TextFieldValue("")
                         telefone = TextFieldValue("")
                         keyboardController?.hide()
+
+
+                        onNavigate(0)
                     }
                 }
-            )
+            ) {
+                Text(
+                    text = if (isEditing) "Atualizar" else "Cadastrar",
+                    fontWeight = FontWeight.Medium,
+                    fontFamily = FontFamily.Default,
+                    fontSize = 15.sp
+                    )
+            }
+        }
+    }
+
+
+@Composable
+fun SmsScreen(viewModel: PessoaViewModel, mainActivity: MainActivity) {
+    var selectedPessoa by remember { mutableStateOf<Pessoa?>(null) }
+    var message by remember { mutableStateOf("") }
+    val pessoaList by viewModel.getPessoa().observeAsState(emptyList())
+
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(color= Color.Black)
+            .padding(16.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Spacer(Modifier.height(40.dp))
+        Text(
+            text = "Envio de SMS",
+            fontSize = 50.sp,
+            fontWeight = FontWeight.Thin,
+            color = Color.White,
+            modifier = Modifier.padding(bottom = 16.dp)
         )
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        Button(
-            onClick = {
-                if (nome.text.isNotEmpty() && telefone.text.isNotEmpty()) {
-                    viewModel.upsertPessoa(Pessoa(nome.text, telefone.text))
-                    nome = TextFieldValue("")
-                    telefone = TextFieldValue("")
-                    keyboardController?.hide()
+        Spacer(Modifier.height(40.dp))
+        Column(
+            Modifier.height(300.dp)
+        ) {
+            LazyColumn(
+                Modifier
+                    .background(color = Color(0xFFF0F0F0), shape = RoundedCornerShape(16.dp))
+                    .padding(8.dp)
+            ) {
+                items(pessoaList.sortedBy { it.name }) { pessoa ->
+                    val isSelected = pessoa == selectedPessoa
+                    Row(
+                        Modifier
+                            .fillMaxWidth()
+                            .padding(8.dp)
+                            .clickable { selectedPessoa = pessoa }
+                            .background(
+                                if (isSelected) Color.LightGray else Color.White,
+                                shape = RoundedCornerShape(8.dp)
+                            )
+                            .border(
+                                width = 2.dp,
+                                color = if (isSelected) Color.Gray else Color.Transparent,
+                                shape = RoundedCornerShape(8.dp)
+                            )
+                            .padding(8.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Box(
+                            modifier = Modifier
+                                .size(40.dp)
+                                .background(if (isSelected) Color.Gray else Color.LightGray, shape = CircleShape),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Icon(
+                                imageVector = Icons.Default.Person,
+                                contentDescription = "Ícone de pessoa",
+                                tint = Color.White
+                            )
+                        }
+                        Spacer(modifier = Modifier.width(8.dp))
+                        Column {
+                            Text(
+                                text = pessoa.name,
+                                color = if (isSelected) Color.Gray else Color.Black,
+                                fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal
+                            )
+                            Text(
+                                text = pessoa.telefone ?: "Sem telefone",
+                                color = if (isSelected) Color.DarkGray else Color.Gray
+                            )
+                        }
+                    }
                 }
             }
-        ) {
-            Text("Cadastrar")
+        }
+        Spacer(modifier = Modifier.height(16.dp))
+        
+        Column (Modifier.padding(start = 40.dp, end = 40.dp)) {
+            TextField(
+                value = message,
+                onValueChange = { message = it },
+                label = { Text("Digite a mensagem") },
+                placeholder = { Text("Digite sua mensagem aqui...") },
+                modifier = Modifier.fillMaxWidth()
+            )
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+            Button(
+                onClick = {
+                    selectedPessoa?.let {
+                        sendSms(it.telefone, message, mainActivity)
+                    }
+                },
+                shape = RoundedCornerShape(8.dp) ,
+                enabled = selectedPessoa != null && message.isNotEmpty(),
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Text("Enviar SMS")
+            }
         }
     }
 }
 
-@Composable
-fun SettingsScreen() {
-    Column(
-        Modifier
-            .fillMaxSize()
-            .padding(16.dp),
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        Text(
-            text = "Configurações",
-            fontFamily = FontFamily.Serif,
-            fontWeight = FontWeight.Bold,
-            fontSize = 30.sp,
-            color = Color.White
-        )
 
-        Divider(color = Color.White, thickness = 2.dp, modifier = Modifier.padding(vertical = 10.dp))
-
-        Spacer(modifier = Modifier.height(20.dp))
-
-        Text(
-            text = "Desenvolvido por Ana Beatriz 1ADS-AMS",
-            fontFamily = FontFamily.Serif,
-            fontWeight = FontWeight.Light,
-            fontSize = 16.sp,
-            color = Color.Gray
-        )
+fun sendSms(phoneNumber: String, message: String, mainActivity: MainActivity) {
+        val smsIntent = Intent(Intent.ACTION_SENDTO).apply {
+            data = Uri.parse("smsto:$phoneNumber")
+            putExtra("sms_body", message)
+        }
+        mainActivity.startActivity(smsIntent)
     }
-}
+
