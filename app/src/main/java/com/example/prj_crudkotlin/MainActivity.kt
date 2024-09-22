@@ -76,6 +76,7 @@ import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
+import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.TextFieldValue
@@ -471,11 +472,13 @@ fun HomeScreen(
             Spacer(modifier = Modifier.height(16.dp))
 
             TextField(
-                placeholder = {Text("Digite o número...")},
-                value = TextFieldValue(formatPhoneNumber(telefone.text)),
+                placeholder = { Text("Digite o número...") },
+                value = telefone,
                 onValueChange = {
-                    if (it.text.filter { char -> char.isDigit() }.length <= 11) {
-                        telefone = it.copy(text = formatPhoneNumber(it.text))
+                    val unformatted = it.text.filter { char -> char.isDigit() }
+                    if (unformatted.length <= 11) {
+                        val formatted = formatPhoneNumber(unformatted)
+                        telefone = it.copy(text = formatted, selection = TextRange(formatted.length))
                     }
                 },
                 label = { Text("Telefone") },
